@@ -18,7 +18,7 @@ and put the file in the 'p1_navigation' folder
 
 **NOTE for Macbook users**: double click the "Reacher" app. If you see the message *"Reacher" Cannot Be Opened Because the Developer Cannot be Verified*. [Than Apple doesnt trust the app](https://www.lifewire.com/fix-developer-cannot-be-verified-error-5183898). I fixed it by allowing it access.
 
-![macbook-issue][images/macbook-issue.png]
+![macbook-issue](images/macbook-issue.png)
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
