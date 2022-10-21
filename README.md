@@ -16,6 +16,10 @@
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
 and put the file in the 'p1_navigation' folder
 
+**NOTE for Macbook users**: double click the "Reacher" app. If you see the message *"Reacher" Cannot Be Opened Because the Developer Cannot be Verified*. [Than Apple doesnt trust the app](https://www.lifewire.com/fix-developer-cannot-be-verified-error-5183898). I fixed it by allowing it access.
+
+![macbook-issue][images/macbook-issue.png]
+
 To set up your python environment to run the code in this repository, follow the instructions below.
 
 2. Create (and activate) a new environment with Python 3.6.
@@ -51,9 +55,7 @@ cd ..
 jupyter notebook
 ```
 
-2. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
-
-![Kernel][image2]
+2. Before running code in a notebook, change the kernel to match the `drlnd_p2_continuous-control` environment by using the drop-down `Kernel` menu. 
 
 
 3. Now you can 'run all' cell's, which will train the agent, and once trained it will play the game (once).
